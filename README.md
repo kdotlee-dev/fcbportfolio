@@ -60,7 +60,6 @@ This website is automatically deployed using GitHub Actions. Every time changes 
 ```
 ├── index.html          # Main HTML file
 ├── styles/             # CSS stylesheets
-├── scripts/            # JavaScript files
 ├── images/             # Image assets
 └── .github/
     └── workflows/      # GitHub Actions workflows
