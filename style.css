@@ -1,0 +1,83 @@
+/*
+	Syntax for CSS
+
+	selector{
+		property: value;
+	}
+	
+*/
+
+/* The "*" universal selector selects all HTML elements */
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+/* element/tag selector - selects all element of a specific type. */
+/* Group selector (,) */
+h1, p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: white;
+}
+
+/*id selector (#) - Selects an element with a unique ID (used only once per page). */
+#profile {
+	height: 250px;
+	width: 250px;
+	/*Circular Shape*/
+	border-radius: 50%;
+}
+
+body {
+	/* Sets the background color of the page */
+	background-color: #000000;
+	/* Sets the background image for the page*/
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+	/* Sets the background image to be fixed with the rest of the page */
+	background-attachment: fixed;
+	/* Occupy the whole container of the page */
+	background-size: cover;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	/* Add space inside*/
+	padding: 10px;
+	/* Flexbox*/
+	/* This helps on arranging items within a container on a flexible and responsive manner. */
+	display: flex;
+
+	/* Center content horizontally. */
+	justify-content: center;
+
+	/* Center content vertically. */
+	align-items: center;
+}
+
+/* Class selector (.) - Selects elements with a specific class (can be used multiple times). */
+.fa-globe, .fa-brands{
+	font-size: 25px;
+	color: white;
+
+	/* Add space on the left and right (10 px on both sides) outside. */
+	/* margin: Y-axis(Top+Bottom) X-axis (Left+Right). */
+	/* margin: Top Right Bottom Left */
+	margin: 0 10px;
+}
+
+/* CSS pseudo-class - used to apply styles or visual feedback to an element based on its state or position */
+.fa-globe:hover, .fa-brands:hover {
+	color: gray;
+}
+
+#landing {
+	/* Sets the height of the viewport height*/
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
