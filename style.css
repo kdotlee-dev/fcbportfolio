@@ -4,7 +4,6 @@
 	selector{
 		property: value;
 	}
-	
 */
 
 /* The "*" universal selector selects all HTML elements */
@@ -20,6 +19,12 @@ h1, p {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: white;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 15px;
 }
 
 /*id selector (#) - Selects an element with a unique ID (used only once per page). */
