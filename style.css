@@ -25,7 +25,7 @@ h1, p {
 h1 {
 	font-size: clamp(1.5rem, 5vw, 3rem);
 	text-align: center;
-	margin: 20px 0;
+	margin: 40px 0;
 }
 
 p {
@@ -70,13 +70,10 @@ footer {
 	/* Flexbox*/
 	/* This helps on arranging items within a container on a flexible and responsive manner. */
 	display: flex;
-
 	/* Center content horizontally. */
 	justify-content: center;
-
 	/* Center content vertically. */
 	align-items: center;
-
 	/* Allow wrapping on small screens */
 	flex-wrap: wrap;
 }
@@ -85,7 +82,6 @@ footer {
 .fa-globe, .fa-brands{
 	font-size: 25px;
 	color: white;
-
 	/* Add space on the left and right (10 px on both sides) outside. */
 	/* margin: Y-axis(Top+Bottom) X-axis (Left+Right). */
 	/* margin: Top Right Bottom Left */
