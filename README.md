@@ -1,98 +1,60 @@
-# Frontend Website
+# XCONvict | Portfolio
 
-A beginner-friendly frontend website project created as part of a free coding bootcamp.
+A single-page personal portfolio with a bold, high-contrast landing experience. Built with HTML, CSS, and Bootstrap as a hands-on introduction to frontend development.
 
-## About This Project
+**Live site:** [https://kdotlee-dev.github.io/fcbportfolio/](https://kdotlee-dev.github.io/fcbportfolio/)
 
-This project was developed following instructions from a Zuitt instructor during a free coding bootcamp session held on October 15, 2025 at 1:00 PM UTC+08:00. 
-It serves as a hands-on introduction to frontend development and automated deployment workflows.
+## Overview
+
+The page opens with a short manifesto, a profile image, and a contact action. Typography is set with Google Fonts, layout and components come from Bootstrap 5, and icons are provided by Font Awesome. The visual theme uses a dark background so the headline and call to action stay readable on desktop and mobile.
+
+This project was completed during a Zuitt free coding bootcamp session on October 15, 2025.
+
+## Tech stack
+
+- HTML5
+- CSS3
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/) (Montserrat, Roboto)
+- [Font Awesome](https://fontawesome.com/)
+- SVG background
+- GitHub Pages
+
+## Project structure
+
+```
+├── index.html     # Page markup
+├── style.css      # Custom styles
+├── images/        # Profile and visual assets
+└── README.md
+```
+
+## Run locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kdotlee-dev/fcbportfolio.git
+   cd fcbportfolio
+   ```
+
+2. Open `index.html` in a browser.
+
+No build step or package install is required. Static files are served as-is.
 
 ## Deployment
 
-This website is automatically deployed using GitHub Actions. Every time changes are pushed to the repository, GitHub Actions runs a workflow that builds and deploys the website automatically.
+The site is published with [GitHub Pages](https://pages.github.com/) from this repository:
 
-### How It Works
+[https://kdotlee-dev.github.io/fcbportfolio/](https://kdotlee-dev.github.io/fcbportfolio/)
 
-1. Push code changes to the repository
-2. GitHub Actions automatically triggers the deployment workflow
-3. The website is built and deployed to the hosting platform
-4. Changes go live without any manual intervention
+Pushing updates to the default branch publishes the latest `index.html`, `style.css`, and assets.
 
-## Getting Started
+## Contact
 
-### Prerequisites
-
-- A web browser
-- Git installed on a computer
-- A GitHub account
-
-### Local Development
-
-1. Clone this repository:
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd <project-name>
-   ```
-
-3. Open `index.html` in a web browser to view the website locally
-
-### Making Changes
-
-1. Edit the HTML, CSS files as needed
-2. Test changes locally by opening the files in a browser
-3. Commit changes:
-   ```bash
-   git add .
-   git commit -m "Describe your changes"
-   ```
-4. Push to GitHub:
-   ```bash
-   git push origin main
-   ```
-5. GitHub Actions will automatically deploy the updates
-
-## Project Structure
-
-```
-├── index.html          # Main HTML file
-├── styles/             # CSS stylesheets
-├── images/             # Image assets
-└── .github/
-    └── workflows/      # GitHub Actions workflows
-```
-
-## Technologies Used
-
-- HTML
-- CSS
-- FONTAWESOMEKIT
-- GOOGLE FONTS
-- SVGBACKGROUNDS
-- BOOTSTRAP 5
-- GitHub Actions
-
-## Learning Resources
-
-This project is part of the Zuitt coding bootcamp curriculum. For more information about upcoming bootcamp sessions, visit [Zuitt's website](https://zuitt.co/).
-
-## Contributing
-
-This is a learning project, but suggestions and improvements are welcome!
-
-## License
-
-This project is open source and available for educational purposes.
+Questions about the portfolio: [kdotlee.dev@gmail.com](mailto:kdotlee.dev@gmail.com)
 
 ## Acknowledgments
 
-- Zuitt Bootcamp for providing free coding education
-- The instructor who led the October 15, 2025 session
-- All participants of the bootcamp cohort
-
----
-
-*Created as part of Zuitt's Free Coding Bootcamp - October 15, 2025*
+- [Zuitt](https://zuitt.co/) for the free coding bootcamp and the October 15, 2025 session
+- Bootstrap, Google Fonts, and Font Awesome for the libraries used on the page
