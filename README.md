@@ -59,7 +59,7 @@ No build step or package install is required. Static files are served as-is.
 
 The site is published with [GitHub Pages](https://pages.github.com/) from this repository:
 
-[https://kdotlee-dev.github.io/fcbportfolio/](https://kdotlee-dev.github.io/fcbportfolio/)
+[https://github.com/kdotlee-dev/fcbportfolio](https://github.com/kdotlee-dev/fcbportfolio)
 
 Pushing updates to the default branch publishes the latest `index.html`, `style.css`, and assets.
 
